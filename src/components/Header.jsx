@@ -3,7 +3,7 @@ import Navigation from './Navigation';
 
 const Header = () => {
   const headerStyle = {
-    backgroundColor: '#123',
+    backgroundColor: '#345',
     color: '#fff',
     padding: '10px',
   };
