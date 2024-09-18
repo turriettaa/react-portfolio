@@ -1,16 +1,15 @@
 import React from 'react';
-//import Project from './Project';
+import Project from '../components/Project';
 
 const Portfolio = () => {
   const projects = [
     {
-      title: 'Project 1',
-      description: 'Description of Project 1',
-      image: 'https://via.placeholder.com/150',
-      deployedLink: 'https://project1.com',
-      repoLink: 'https://github.com/your-username/project1',
+      title: 'Weather App',
+      description: 'A weather app that shows todays weather and 5 day forecast.',
+      image: 'https://github.com/turriettaa/Weather-Dashboard/raw/main/Screenshot%202024-09-14%20102644.png',
+      deployedLink: 'https://turriettaa.github.io/Weather-Dashboard/',
+      repoLink: 'https://github.com/turriettaa/Weather-Dashboard',
     },
-    // Add more projects here
   ];
 
   return (
