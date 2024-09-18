@@ -9,6 +9,7 @@ const Project = ({ title, description, image, deployedLink, repoLink }) => {
       <a href={deployedLink} target="_blank" rel="noopener noreferrer">
         Deployed Application
       </a>
+      <a> </a>
       <a href={repoLink} target="_blank" rel="noopener noreferrer">
         GitHub Repository
       </a>
